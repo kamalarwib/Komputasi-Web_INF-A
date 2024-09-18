@@ -1,0 +1,73 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;    
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: brown;
+    text-align: justify;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+}
+
+.fit-picture {
+    width: 250px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: brown;
+    text-align: justify;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: blue;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap; /* Membuat elemen dibungkus ke baris baru */
+    list-style-type: none;
+    padding: 0;
+}
+.footer-links li {
+    flex: 1 1 50%; /* Membuat setiap elemen mengambil setengah dari lebar */
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: brown;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    background-color: blue;
+    color: white; /* For better contrast */
+}
